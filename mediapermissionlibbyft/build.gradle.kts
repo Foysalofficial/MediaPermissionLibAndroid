@@ -55,7 +55,7 @@ publishing {
             version = "3.0" // Updated to 3.0 as per your snippet
 
             // Link to the release component
-//            from(components["release"])
+            from(components["release"])
         }
     }
 }

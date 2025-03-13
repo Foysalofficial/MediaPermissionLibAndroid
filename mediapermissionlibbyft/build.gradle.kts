@@ -52,7 +52,7 @@ publishing {
         create<MavenPublication>("releaseAar") {
             groupId = "com.github.Foysalofficial"
             artifactId = "mediapermissionlibbyft"
-            version = "3.0" // Updated to 3.0 as per your snippet
+            version = "4.0"
 
             // Link to the release component
             from(components["release"])

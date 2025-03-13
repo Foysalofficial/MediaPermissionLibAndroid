@@ -427,7 +427,7 @@ subprojects {
    ```
 
 4. **Verify on GitHub:**
-   Visit [https://github.com/Foysalofficial/MediaPermissionLib](https://github.com/Foysalofficial/MediaPermissionLib) to ensure all files are correctly uploaded and `README.md` renders properly.
+   Visit [https://github.com/Foysalofficial/MediaPermissionLibAndroid/](https://github.com/Foysalofficial/MediaPermissionLibAndroid/) to ensure all files are correctly uploaded and `README.md` renders properly.
 
 ---
 
@@ -720,7 +720,7 @@ All notable changes to `MediaPermissionLib` will be documented in this file.
      ```
 
 5. **Verify on GitHub:**
-   - Visit `https://github.com/Foysalofficial/MediaPermissionLib` to see the rendered files.
+   - Visit `https://github.com/Foysalofficial/MediaPermissionLibAndroid/` to see the rendered files.
    - The `README.md` will appear on the main page, `LICENSE` will be linked, and `CHANGELOG.md` will be accessible as a separate file.
 
 ---

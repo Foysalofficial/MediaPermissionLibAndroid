@@ -1,11 +1,17 @@
 plugins {
     alias(libs.plugins.android.library)
-    id("maven-publish") // Added for publishing
+    id("maven-publish")
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
 }
 
 android {
     namespace = "com.mediapermissionlib.byfoysaltechyt"
-    compileSdk = 35 // Good choice for latest SDK as of March 2025
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 21
@@ -24,13 +30,13 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_17 // Match AGP requirement
         targetCompatibility = JavaVersion.VERSION_17
     }
 
     publishing {
-        singleVariant("release") { // Correct syntax with double quotes
-            withSourcesJar() // Optional: Include source files in the artifact
+        singleVariant("release") { // Define the variant to publish
+            withSourcesJar() // Optional: Include source code
         }
     }
 }
@@ -38,6 +44,18 @@ android {
 dependencies {
     implementation(libs.appcompat)
     implementation("androidx.activity:activity:1.10.1")
-    implementation("androidx.core:core:1.15.0")
+    implementation("androidx.core:core:1.13.1")
+}
 
+publishing {
+    publications {
+        create<MavenPublication>("releaseAar") {
+            groupId = "com.github.Foysalofficial"
+            artifactId = "mediapermissionlibbyft"
+            version = "3.0" // Updated to 3.0 as per your snippet
+
+            // Link to the release component
+//            from(components["release"])
+        }
+    }
 }

@@ -2,6 +2,12 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
 android {
     namespace = "com.mediapermissionlib.byfoysaltech"
     compileSdk = 35

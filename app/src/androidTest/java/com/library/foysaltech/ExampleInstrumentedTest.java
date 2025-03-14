@@ -1,4 +1,4 @@
-package com.mediapermissionlib.byfoysaltech;
+package com.library.foysaltech;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.mediapermissionlib.byfoysaltech", appContext.getPackageName());
+        assertEquals("com.multilibrary.foysaltech", appContext.getPackageName());
     }
 }

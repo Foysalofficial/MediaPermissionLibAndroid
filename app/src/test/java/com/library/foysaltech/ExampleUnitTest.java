@@ -1,4 +1,4 @@
-package com.mediapermissionlib.byfoysaltech;
+package com.library.foysaltech;
 
 import org.junit.Test;
 

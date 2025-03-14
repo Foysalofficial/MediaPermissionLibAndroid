@@ -1,5 +1,0 @@
-jdk:
-  - amazoncorretto-17
-android:
-  modules:
-    - mediapermissionlibbyft

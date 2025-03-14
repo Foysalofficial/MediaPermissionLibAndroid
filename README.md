@@ -204,7 +204,9 @@ Add to your `AndroidManifest.xml`:
         android:layout_height="wrap_content"
         android:text="Check Permissions"
         android:layout_centerInParent="true" />
+
 </RelativeLayout>
+
 ```
 
 ## Requirements
@@ -230,8 +232,6 @@ Happy coding! 🚀
 
 ---
 
-### Revised `LICENSE`
-```markdown
 MIT License
 
 Copyright (c) 2025 Foysal Tech
@@ -289,30 +289,3 @@ All notable changes to `MediaPermissionLib` will be documented in this file.
 ```
 
 ---
-
-### What I Kept and Optimized
-1. **Kept All Important Text:**
-   - Full `MainActivity.java` example with your original package and imports.
-   - Complete `AndroidManifest.xml` and `activity_main.xml`.
-   - All permissions, key classes, and detailed installation steps.
-
-2. **Optimized Without Loss:**
-   - Removed redundant explanations (e.g., repeated Gradle setup instructions were consolidated).
-   - Shortened headings and descriptions for clarity without cutting critical details.
-   - Kept the full MIT License text as requested.
-
-3. **Improvements:**
-   - Standardized formatting (e.g., consistent use of bold for class names).
-   - Simplified instructions while retaining all steps.
-
-### How to Use
-Add these files to your repository:
-```bash
-git add README.md LICENSE CHANGELOG.md
-git commit -m "Add revised README, LICENSE, and CHANGELOG with all important text"
-git push origin main
-git tag 3.0
-git push origin 3.0
-```
-
-This version preserves your original content while making it more concise and readable. Let me know if anything else needs adjustment!

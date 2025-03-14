@@ -1,7 +1,5 @@
 ---
 
-### Revised `README.md`
-```markdown
 # MediaPermissionLib
 
 ![GitHub release (2025-03-13)](https://github.com/Foysalofficial/MediaPermissionLibAndroid)
